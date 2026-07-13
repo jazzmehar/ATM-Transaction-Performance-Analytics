@@ -1,8 +1,21 @@
-# ATM Transaction Performance Analytics
+#  ATM Transaction Performance Analytics
 
-An end-to-end Data Analytics project that simulates a real banking environment using synthetic data. The project covers data generation, SQL analysis, and interactive dashboard development.
+An end-to-end Banking Data Analytics project that simulates a realistic banking ecosystem using synthetic data generated with Python. The project demonstrates data engineering, SQL analysis, and business intelligence through an interactive Power BI dashboard.
 
-## Tech Stack
+---
+
+##  Project Objectives
+
+- Generate realistic banking datasets using Python
+- Design relational banking tables with business rules
+- Import and clean data in SQL Server
+- Perform analytical SQL queries
+- Build an interactive Power BI dashboard
+- Showcase an end-to-end Data Analytics workflow
+
+---
+
+##  Tech Stack
 
 - Python
 - Pandas
@@ -12,24 +25,24 @@ An end-to-end Data Analytics project that simulates a real banking environment u
 - Power BI
 - Git & GitHub
 
-## Project Status
+---
 
-- Completed
-  - Customer Data Generation
+##  Dataset Overview
 
-- In Progress
-  - Accounts
-  - Branches
-  - ATMs
-  - Cards
-  - Transactions
-  - Data Cleaning
-  - SQL Analysis
-  - Power BI Dashboard
+| Table | Records |
+|--------|---------:|
+| Customers | 30,000 |
+| Accounts | 45,000 |
+| Branches | 75 |
+| ATMs | ~300 |
+| Debit Cards | ~38,000 |
+| Transactions | ~1,000,000 |
 
-## Repository Structure
+---
 
-```
+##  Repository Structure
+
+```text
 ATM-Transaction-Performance-Analytics/
 │
 ├── data/
@@ -40,15 +53,72 @@ ATM-Transaction-Performance-Analytics/
 ├── sql/
 ├── powerbi/
 ├── images/
+│
+├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
-## Current Progress
+---
 
-- Designed the project structure
-- Generated a synthetic customer dataset
-- Implemented realistic customer attributes and business rules
+##  Project Workflow
+
+```
+Python Data Generation
+        │
+        ▼
+CSV Files
+        │
+        ▼
+SQL Server
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+SQL Analysis
+        │
+        ▼
+Power BI Dashboard
+```
 
 ---
 
-*This project is currently under development and will be updated as new phases are completed.*
+## Progress
+
+### Data Generation
+
+- [x] Customers
+- [x] Accounts
+- [x] Branches
+- [x] ATMs
+- [x] Debit Cards
+- [x] Transactions
+
+### SQL
+
+- [ ] Database Design
+- [ ] Data Import
+- [ ] Data Cleaning
+- [ ] 100+ SQL Queries
+
+### Power BI
+
+- [ ] Dashboard Design
+- [ ] KPI Cards
+- [ ] ATM Analytics
+- [ ] Branch Analytics
+- [ ] Transaction Analytics
+
+---
+
+##  Planned Dashboard KPIs
+
+- Total Transactions
+- Transaction Success Rate
+- ATM Utilization
+- Average Transaction Amount
+- Branch Performance
+- Monthly Transaction Trend
+- Top Performing ATMs
+- Transaction Type Distribution
