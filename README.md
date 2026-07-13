@@ -131,6 +131,6 @@ The `transactions.csv` file (~200 MB) is not included in this repository because
 
 You can generate it by running (the last part) in:
 
-- `01_Customer_Data_Generation.ipynb`
+- **[Random Fake Data.ipynb](notebooks/Random_Fake_Data.ipynb)**
 
 The generated dataset contains approximately 1 million realistic banking transactions.
